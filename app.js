@@ -1,8 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./docs/swagger');
 const app = express();
-
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 // Middleware
 app.use(bodyParser.json());
 
