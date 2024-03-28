@@ -15,5 +15,10 @@
     "express-validator": "^7.0.1",
     "pg": "^8.11.3",
     "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-airbnb": "^0.0.1-security",
+    "jest": "^29.7.0"
   }
 }
