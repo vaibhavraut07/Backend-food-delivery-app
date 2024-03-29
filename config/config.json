@@ -1,19 +1,23 @@
 {
-    "development": {
-      "username": "your_username",
-      "password": "your_password",
-      "database": "food_delivery_dev",
-      "host": "127.0.0.1",
-      "dialect": "postgres"
-    },
-    "test": {
-      "username": "your_username",
-      "password": "your_password",
-      "database": "food_delivery_test",
-      "host": "127.0.0.1",
-      "dialect": "postgres"
-    },
-    "production": {
-      "use_env_variable": "DATABASE_URL"
-    }
+  "development": {
+    "username": "vaibhav",
+    "password": "mySecurePassword123",
+    "database": "food_delivery_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "vaibhav_test",
+    "password": "testPassword456",
+    "database": "food_delivery_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "vaibhav_prod",
+    "password": "prodPassword789",
+    "database": "food_delivery_prod",
+    "host": "database.server.com",
+    "dialect": "postgres"
   }
+}
